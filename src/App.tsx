@@ -43,7 +43,7 @@ function App() {
               setPage((prev) => prev + 1);
             }
           }}
-          disabled={data && page === data.totalPages}
+          disabled={!data || page === data.totalPages}
         >
           Next Page
         </button>
