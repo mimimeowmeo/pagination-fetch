@@ -1,0 +1,10 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.pager-row {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
